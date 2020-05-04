@@ -1,11 +1,12 @@
 public class Contra {
     String name;
+    String weapon;
     int score;
     int lives = 3;
-    double shootMob = 200;
+    int shootMob = 200;
 
     void Shotgun(){
-        score *= 8;
+        score *= 2;
     }
 
     void Dead(){
